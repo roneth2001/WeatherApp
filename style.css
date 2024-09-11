@@ -1,0 +1,30 @@
+body {
+    background-image: url('img/cloudy.jpeg'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensure the background covers the entire page */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-attachment: fixed; /* Keep the background fixed when scrolling */
+}
+.back{
+    background-color: rgb(173, 198, 245);
+}
+.panelBackGround{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.panelBackGroundColor{
+    background-color: aqua;
+    opacity: 50%;
+}
+
+.header{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(92, 170, 13);
+}
+
